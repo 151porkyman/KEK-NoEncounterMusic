@@ -113,6 +113,6 @@ PlayBattleMusic::
 	ld a, MUSIC_GALAR_BIRDS
 	jr .playSong
 .wildBattle
-	ld a, MUS1C_WILD_BATTLE
+	ld a, MUSIC_WOLD_BATTLE
 .playSong
 	jp PlayMusic
