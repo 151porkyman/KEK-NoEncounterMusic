@@ -113,6 +113,6 @@ PlayBattleMusic::
 	ld a, MUSIC_GALAR_BIRDS
 	jr .playSong
 .wildBattle
-	ld a, MUSIC_WILD_BATTLE
+	ld a, SFX_STOP_ALL_MUSIC
 .playSong
 	jp PlayMusic
