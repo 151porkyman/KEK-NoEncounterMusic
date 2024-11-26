@@ -113,7 +113,6 @@ PlayBattleMusic::
 	ld a, MUSIC_GALAR_BIRDS
 	jr .playSong
 .wildBattle
-	call StopAllMusic
 	ld a, MUSIC_WILD_BATTLE
 .playSong
 	jp PlayMusic
