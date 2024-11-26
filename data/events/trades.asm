@@ -2,15 +2,15 @@ TradeMons:
 ; entries correspond to TRADE_FOR_* constants
 	table_width 3 + NAME_LENGTH, TradeMons
 	; give mon, get mon, dialog id, nickname
-	db POLIWHIRL,  JYNX,        TRADE_DIALOGSET_CASUAL,    "LOLA@@@@@@@" ; Cerulean City 
-	db ABRA,       MR_MIME,     TRADE_DIALOGSET_CASUAL,    "MARCEL@@@@@" ; Route 2
-	db BUTTERFREE, BEEDRILL,    TRADE_DIALOGSET_HAPPY,     "CHIKUCHIKU@" ; Viridian Forest gate
-	db RAICHU,     KADABRA,     TRADE_DIALOGSET_EVOLUTION, "HARRY@@@@@@" ; Citrine City, new trade to complete the 4 main trade evos
-	db SPEAROW,    FARFETCHD,   TRADE_DIALOGSET_HAPPY,     "DUX@@@@@@@@" ; Vermilion City
-	db PERSIAN,    TAUROS,      TRADE_DIALOGSET_CASUAL,    "JIMBO@@@@@@" ; Route 17-18 gate, from JP Blue
-	db MACHOKE,    HAUNTER,     TRADE_DIALOGSET_EVOLUTION, "MICHELLE@@@" ; Route 11 Gate, from JP Blue
-	db KADABRA,    GRAVELER,    TRADE_DIALOGSET_EVOLUTION, "JENNY@@@@@@" ; Route 10 Gate
-	db CUBONE,     MACHOKE,     TRADE_DIALOGSET_HAPPY,     "RICKY@@@@@@" ; Route 5-6 Underground Path, from Yellow
+	db POLIWHIRL,  JYNX,        TRADE_DIALOGSET_CASUAL,    "JYNX@@@@@@@" ; Cerulean City 
+	db ABRA,       MR_MIME,     TRADE_DIALOGSET_CASUAL,    "MR.MIME@@@@" ; Route 2
+	db BUTTERFREE, BEEDRILL,    TRADE_DIALOGSET_HAPPY,     "BEEDRILL@@@" ; Viridian Forest gate
+	db RAICHU,     KADABRA,     TRADE_DIALOGSET_EVOLUTION, "Kadabra@@@@" ; Citrine City, new trade to complete the 4 main trade evos
+	db SPEAROW,    FARFETCHD,   TRADE_DIALOGSET_HAPPY,     "FARFETCH'D@" ; Vermilion City
+	db PERSIAN,    TAUROS,      TRADE_DIALOGSET_CASUAL,    "TAUROS@@@@@" ; Route 17-18 gate, from JP Blue
+	db MACHOKE,    HAUNTER,     TRADE_DIALOGSET_EVOLUTION, "HAUNTER@@@@" ; Route 11 Gate, from JP Blue
+	db KADABRA,    GRAVELER,    TRADE_DIALOGSET_EVOLUTION, "GRAVELER@@@" ; Route 10 Gate
+	db CUBONE,     MACHOKE,     TRADE_DIALOGSET_HAPPY,     "MACHOKE@@@@" ; Route 5-6 Underground Path, from Yellow
 	db NO_MON,     NO_MON,      TRADE_DIALOGSET_SELF,      "Unseen@@@@@" ; The Trader
 	db RATICATE,   RATICATE_A,  TRADE_DIALOGSET_REGION,    "RATICATE@@@" ; Viridian - LGPE trades begin here
 	db GOLEM,      GOLEM_A,     TRADE_DIALOGSET_REGION,    "GOLEM@@@@@@" ; Pewter
@@ -29,7 +29,7 @@ TradeMons:
 	db SLOWBRO,    SLOWBRO_G,   TRADE_DIALOGSET_REGION,    "SLOWBRO@@@@"
 	db SLOWKING,   SLOWKING_G,  TRADE_DIALOGSET_REGION,    "SLOWKING@@@"
 	db WEEZING,    WEEZING_G,   TRADE_DIALOGSET_REGION,    "WEEZING@@@@"
-	db MR_MIME,    MR_RIME,     TRADE_DIALOGSET_CASUAL,    "MR.RIME@@@@"
+	db MR_MIME,    MR_RIME,     TRADE_DIALOGSET_CASUAL,    "MR.LIME@@@@"
 	db PERSIAN,    PERRSERKER,  TRADE_DIALOGSET_HAPPY,     "PERRSERKER@"
 	db LUXWAN,     SIRFETCHD,   TRADE_DIALOGSET_HAPPY,     "SIRFETCH'D@"
 	db ARCANINE,   ARCANINE_H,  TRADE_DIALOGSET_BILL,      "ARCANINE@@@"
