@@ -6,7 +6,7 @@ Music_WildBattle::
 
 Music_WildBattle_Ch1::
 	tempo 104
-	volume 7, 7
+	volume 0, 0
 	duty_cycle 3
 	vibrato 6, 3, 4
 	toggle_perfect_pitch
