@@ -5,7 +5,7 @@ channel 2, Music_WildBattle_Ch2
 channel 3, Music_WildBattle_Ch3
 
 Music_WildBattle_Ch1::
-tempo 104
+tempo 0
 volume 7, 7
 duty_cycle 3
 vibrato 6, 3, 4
