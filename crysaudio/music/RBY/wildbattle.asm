@@ -2,10 +2,10 @@ Music_WildBattle::
 	channel_count 3
 	channel 1, Music_WildBattle_Ch1
 	channel 2, Music_WildBattle_Ch2
-	
+	channel 3, Music_WildBattle_Ch3
 
 Music_WildBattle_Ch1::
-	tempo 84
+	tempo 104
 	volume 4, 4
 	duty_cycle 3
 	vibrato 6, 3, 4
