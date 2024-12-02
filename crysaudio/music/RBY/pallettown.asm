@@ -151,6 +151,7 @@ MainLoop2:
 	octave 2
 	note G_, 5
 	note F_, 5
+	sound_loop 2, MainLoop2
 
 Music_RBYPalletTown_Ch2:
 	stereo_panning TRUE, TRUE
@@ -158,7 +159,7 @@ Music_RBYPalletTown_Ch2:
 	duty_cycle 0
 	note_type 12, 13, 3
 
-MainLoop:
+MainLoop3:
 	octave 3
 	volume_envelope 9, 2
 	note D_, 1
@@ -194,7 +195,7 @@ MainLoop:
 	volume_envelope 9, 0
 	note G_, 2
 	rest 1
-	sound_loop 2, MainLoop
+	sound_loop 2, MainLoop3
 
 Music_RBYPalletTown_Ch3:
 	stereo_panning TRUE, TRUE
@@ -202,7 +203,7 @@ Music_RBYPalletTown_Ch3:
 	duty_cycle 0
 	note_type 12, 1, 2
 
-MainLoop:
+MainLoop4:
 	octave 3
 	volume_envelope 9, 2
 	note D_, 1
@@ -238,14 +239,14 @@ MainLoop:
 	volume_envelope 9, 0
 	note G_, 2
 	rest 1
-	sound_loop 2, MainLoop
+	sound_loop 2, MainLoop4
 
 Music_RBYPalletTown_Ch4:
 	toggle_noise 1
 	stereo_panning TRUE, TRUE
 	vibrato 12, 3, 3
 	duty_cycle 0
-MainLoop:
+MainLoop5:
 	octave 3
 	volume_envelope 9, 2
 	note D_, 1
@@ -281,4 +282,4 @@ MainLoop:
 	volume_envelope 9, 0
 	note G_, 2
 	rest 1
-	sound_loop 2, MainLoop
+	sound_loop 2, MainLoop5
