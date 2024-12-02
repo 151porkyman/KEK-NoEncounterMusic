@@ -1274,7 +1274,7 @@ Music_RBYPalletTown_Ch4:
 	drum_note 3, 7
 	sound_loop 0, .MainLoop
 
-Branch_fad46:
+Branch_Gad46:
 ;	sound_call Branch_Gad4f
 	drum_note 1, 13
 	drum_note 5, 6
