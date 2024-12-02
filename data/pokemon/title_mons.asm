@@ -1,7 +1,5 @@
 TitleMons:
 ; mons on the title screen are randomly chosen from here
-	db SCREAM_TAIL  ; Mascots
-	db SANDY_SHOCKS
 	db TOTARTLE     ; New Starters
 	db GOROCHU
 	db SYLVEON
