@@ -2527,7 +2527,7 @@ Music_TrainerBattle_Ch3:
 	sound_call Branch_Gf6313
 	sound_loop 0, .MainLoop
 
-Branch_1f6313:
+Branch_Gf6313:
 	octave 3
 ;	pitch_offset 244
 ;	cutoff 7
