@@ -58,7 +58,7 @@ Music_RBYPalletTown_Ch1:
 	sound_loop 2, .Loop1
 .Loop2
 	vibrato 20, 3, 3
-	sound_call Branch_fa9aa
+	sound_call Branch_Ga9aa
 	speed 1
 	octave 4
 	note C#, 3
@@ -67,11 +67,11 @@ Music_RBYPalletTown_Ch1:
 	speed 13
 	note D_, 2
 	vibrato 12, 3, 3
-	sound_call Branch_fa9ec
+	sound_call Branch_Ga9ec
 	sound_loop 2, .Loop2
 .Loop3
 	vibrato 20, 3, 3
-	sound_call Branch_fa9cb
+	sound_call Branch_Ga9cb
 	speed 1
 	octave 4
 	note C#, 3
@@ -80,9 +80,9 @@ Music_RBYPalletTown_Ch1:
 	speed 13
 	note D_, 2
 	vibrato 12, 3, 3
-	sound_call Branch_fa9ec
+	sound_call Branch_Ga9ec
 	sound_loop 2, .Loop3
-	sound_call Branch_fa9aa
+	sound_call Branch_Ga9aa
 	vibrato 20, 3, 3
 	speed 1
 	octave 4
@@ -151,7 +151,7 @@ Music_RBYPalletTown_Ch1:
 	note C_, 6
 	note D_, 7
 	speed 13
-	sound_call Branch_fa9aa
+	sound_call Branch_Ga9aa
 	speed 1
 	octave 4
 	note C#, 3
@@ -222,7 +222,7 @@ Music_RBYPalletTown_Ch1:
 	note A#, 6
 	note G_, 7
 ;	cutoff 8
-	sound_call Branch_fa9cb
+	sound_call Branch_Ga9cb
 	speed 1
 	octave 4
 	note C#, 3
@@ -287,7 +287,7 @@ Music_RBYPalletTown_Ch1:
 	duty_cycle 1
 	volume_envelope 10, 0
 ;	cutoff 8
-	sound_call Branch_fa9cb
+	sound_call Branch_Ga9cb
 	speed 1
 	octave 4
 	note C#, 3
@@ -424,7 +424,7 @@ Music_RBYPalletTown_Ch1:
 	vibrato 12, 3, 3
 	sound_loop 0, .MainLoop
 
-Branch_fa9aa:
+Branch_Ga9aa:
 	octave 4
 	duty_cycle 1
 	volume_envelope 10, 0
@@ -454,7 +454,7 @@ Branch_fa9aa:
 	rest 13
 	sound_ret
 
-Branch_fa9cb:
+Branch_Ga9cb:
 	octave 4
 	duty_cycle 1
 	volume_envelope 10, 0
@@ -486,7 +486,7 @@ Branch_fa9cb:
 	rest 13
 	sound_ret
 
-Branch_fa9ec:
+Branch_Ga9ec:
 	octave 3
 	duty_cycle 0
 	volume_envelope 9, 2
@@ -609,12 +609,12 @@ Music_RBYPalletTown_Ch2:
 	dec_octave
 	sound_loop 2, .Loop1
 .Loop2
-	sound_call Branch_fab76
+	sound_call Branch_Gab76
 ;	cutoff 8
 	volume_envelope 8, 0
 	note C_, 2
 	rest 1
-	sound_call Branch_fab76
+	sound_call Branch_Gab76
 ;	cutoff 8
 	volume_envelope 8, 0
 	note E_, 2
@@ -678,7 +678,7 @@ Music_RBYPalletTown_Ch2:
 	rest 1
 	sound_loop 2, .Loop3
 	vibrato 20, 3, 3
-	sound_call Branch_fab8a
+	sound_call Branch_Gab8a
 	octave 3
 	rest 2
 	vibrato 12, 3, 3
@@ -702,7 +702,7 @@ Music_RBYPalletTown_Ch2:
 	note G_, 2
 	rest 1
 	vibrato 20, 3, 3
-	sound_call Branch_fab8a
+	sound_call Branch_Gab8a
 	octave 3
 	rest 1
 	speed 1
@@ -729,7 +729,7 @@ Music_RBYPalletTown_Ch2:
 	volume_envelope 9, 0
 	note E_, 2
 	rest 1
-	sound_call Branch_fabb1
+	sound_call Branch_Gabb1
 	rest 1
 ;	cutoff 4
 	octave 2
@@ -759,7 +759,7 @@ Music_RBYPalletTown_Ch2:
 	volume_envelope 9, 0
 	note F_, 2
 	rest 1
-	sound_call Branch_fabb1
+	sound_call Branch_Gabb1
 	rest 1
 	octave 2
 ;	cutoff 4
@@ -790,7 +790,7 @@ Music_RBYPalletTown_Ch2:
 	vibrato 12, 3, 3
 	sound_loop 0, .MainLoop
 
-Branch_fab76:
+Branch_Gab76:
 	octave 2
 	volume_envelope 9, 2
 	speed 13
@@ -809,7 +809,7 @@ Branch_fab76:
 	rest 1
 	sound_ret
 
-Branch_fab8a:
+Branch_Gab8a:
 	octave 4
 	duty_cycle 1
 	volume_envelope 8, 0
@@ -841,7 +841,7 @@ Branch_fab8a:
 	note A#, 1
 	sound_ret
 
-Branch_fabb1:
+Branch_Gabb1:
 	octave 2
 	volume_envelope 9, 2
 	speed 13
@@ -909,16 +909,16 @@ Music_RBYPalletTown_Ch3:
 	dec_octave
 	sound_loop 4, .Loop1
 .Loop2
-	sound_call Branch_fac94
+	sound_call Branch_Gac94
 	octave 3
 	note A#, 6
-	sound_call Branch_facbb
-	sound_call Branch_fac94
+	sound_call Branch_Gacbb
+	sound_call Branch_Gac94
 	octave 4
 	note F_, 6
-	sound_call Branch_facbb
+	sound_call Branch_Gacbb
 	sound_loop 8, .Loop2
-	sound_call Branch_facc5
+	sound_call Branch_Gacc5
 	octave 2
 	note D_, 13
 	rest 6
@@ -991,7 +991,7 @@ Music_RBYPalletTown_Ch3:
 	note A_, 13
 	note D_, 6
 	rest 7
-	sound_call Branch_facc5
+	sound_call Branch_Gacc5
 	octave 2
 	note G#, 13
 	rest 6
@@ -1048,7 +1048,7 @@ Music_RBYPalletTown_Ch3:
 	speed 1
 	sound_loop 0, .MainLoop
 
-Branch_fac94:
+Branch_Gac94:
 	octave 2
 	note G_, 13
 	note G_, 2
@@ -1089,7 +1089,7 @@ Branch_fac94:
 	inc_octave
 	sound_ret
 
-Branch_facbb:
+Branch_Gacbb:
 	octave 2
 	note F_, 7
 	rest 6
@@ -1101,7 +1101,7 @@ Branch_facbb:
 	rest 7
 	sound_ret
 
-Branch_facc5:
+Branch_Gacc5:
 	octave 2
 	note D#, 13
 	note D#, 2
@@ -1137,9 +1137,9 @@ Music_RBYPalletTown_Ch4:
 	octave 1
 .MainLoop
 .Loop1
-	sound_call Branch_fad46
+	sound_call Branch_Gad46
 	drum_note 4, 13
-	sound_call Branch_fad4f
+	sound_call Branch_Gad4f
 	drum_note 3, 7
 	drum_note 1, 6
 	drum_note 3, 7
@@ -1149,9 +1149,9 @@ Music_RBYPalletTown_Ch4:
 	drum_note 4, 6
 	drum_note 3, 7
 	sound_loop 3, .Loop1
-	sound_call Branch_fad46
+	sound_call Branch_Gad46
 	drum_note 4, 13
-	sound_call Branch_fad4f
+	sound_call Branch_Gad4f
 	drum_note 3, 7
 	drum_note 1, 13
 	drum_note 5, 6
@@ -1162,9 +1162,9 @@ Music_RBYPalletTown_Ch4:
 	drum_note 2, 7
 	sound_loop 2, .Loop2
 .Loop3
-	sound_call Branch_fad46
+	sound_call Branch_Gad46
 	drum_note 4, 13
-	sound_call Branch_fad4f
+	sound_call Branch_Gad4f
 	drum_note 3, 7
 	drum_note 1, 6
 	drum_note 3, 7
@@ -1173,9 +1173,9 @@ Music_RBYPalletTown_Ch4:
 	drum_note 2, 13
 	drum_note 4, 6
 	drum_note 3, 7
-	sound_call Branch_fad46
+	sound_call Branch_Gad46
 	drum_note 4, 13
-	sound_call Branch_fad4f
+	sound_call Branch_Gad4f
 	drum_note 3, 7
 	drum_note 1, 6
 	drum_note 3, 7
@@ -1184,9 +1184,9 @@ Music_RBYPalletTown_Ch4:
 	drum_note 2, 13
 	drum_note 4, 6
 	drum_note 3, 7
-	sound_call Branch_fad46
+	sound_call Branch_Gad46
 	drum_note 4, 13
-	sound_call Branch_fad4f
+	sound_call Branch_Gad4f
 	drum_note 3, 7
 	drum_note 1, 6
 	drum_note 3, 7
@@ -1195,9 +1195,9 @@ Music_RBYPalletTown_Ch4:
 	drum_note 2, 13
 	drum_note 4, 6
 	drum_note 3, 7
-	sound_call Branch_fad46
+	sound_call Branch_Gad46
 	drum_note 4, 13
-	sound_call Branch_fad4f
+	sound_call Branch_Gad4f
 	drum_note 3, 7
 	drum_note 1, 6
 	drum_note 3, 7
@@ -1206,9 +1206,9 @@ Music_RBYPalletTown_Ch4:
 	drum_note 2, 13
 	drum_note 4, 6
 	drum_note 3, 7
-	sound_call Branch_fad46
+	sound_call Branch_Gad46
 	drum_note 4, 13
-	sound_call Branch_fad4f
+	sound_call Branch_Gad4f
 	drum_note 3, 7
 	drum_note 1, 6
 	drum_note 3, 7
@@ -1217,9 +1217,9 @@ Music_RBYPalletTown_Ch4:
 	drum_note 2, 13
 	drum_note 4, 6
 	drum_note 3, 7
-	sound_call Branch_fad46
+	sound_call Branch_Gad46
 	drum_note 4, 13
-	sound_call Branch_fad4f
+	sound_call Branch_Gad4f
 	drum_note 3, 7
 	drum_note 1, 6
 	drum_note 3, 7
@@ -1228,9 +1228,9 @@ Music_RBYPalletTown_Ch4:
 	drum_note 2, 13
 	drum_note 4, 6
 	drum_note 3, 7
-	sound_call Branch_fad46
+	sound_call Branch_Gad46
 	drum_note 4, 13
-	sound_call Branch_fad4f
+	sound_call Branch_Gad4f
 	drum_note 3, 7
 	drum_note 1, 6
 	drum_note 3, 7
@@ -1239,9 +1239,9 @@ Music_RBYPalletTown_Ch4:
 	drum_note 2, 13
 	drum_note 4, 6
 	drum_note 3, 7
-	sound_call Branch_fad46
+	sound_call Branch_Gad46
 	drum_note 4, 13
-	sound_call Branch_fad4f
+	sound_call Branch_Gad4f
 	drum_note 3, 3
 	drum_note 3, 4
 	drum_note 2, 6
@@ -1254,10 +1254,10 @@ Music_RBYPalletTown_Ch4:
 	drum_note 2, 7
 	sound_loop 2, .Loop3
 .Loop4
-	sound_call Branch_fad46
+	sound_call Branch_Gad46
 	drum_note 4, 13
 	sound_loop 6, .Loop4
-	sound_call Branch_fad46
+	sound_call Branch_Gad46
 	drum_speed 13
 	drum_note 6, 4
 	drum_speed 1
@@ -1275,7 +1275,7 @@ Music_RBYPalletTown_Ch4:
 	sound_loop 0, .MainLoop
 
 Branch_fad46:
-;	sound_call Branch_fad4f
+;	sound_call Branch_Gad4f
 	drum_note 1, 13
 	drum_note 5, 6
 	drum_note 1, 7
@@ -1289,7 +1289,7 @@ Branch_fad46:
 	drum_note 2, 13
 	sound_ret
 
-Branch_fad4f:
+Branch_Gad4f:
 	drum_note 1, 13
 	drum_note 5, 6
 	drum_note 1, 7
